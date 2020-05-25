@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-22T18:55:38.641Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3471556428,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34209451,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4124043141,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://admin-demo.nopcommerce.com/login",
+                  "offset": 16
+                }
+              ],
+              "location": "Steps.user_opens_url_something(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 348181828,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 22
+                },
+                {
+                  "val": "admin",
+                  "offset": 60
+                }
+              ],
+              "location": "Steps.user_enters_email_as_something_and_password_as_something(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15960739398,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Login",
+            "match": {
+              "location": "Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5064757086,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Page Title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_title_should_be_something(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196684631,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Log out link",
+            "match": {
+              "location": "Steps.user_click_on_log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Your store. Logi]n\u003e but was:\u003c[Dashboard / nopCommerce administratio]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.Steps.page_title_should_be_something(Steps.java:89)\r\n\tat ✽.Page Title should be \"Your store. Login\"(file:Features/Login.feature:11)\r\n",
+              "duration": 48221297,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "Page Title should be \"Your store. Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your store. Login",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_title_should_be_something(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285985,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]

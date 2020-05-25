@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.286025">
+<testcase classname="Login" name="Successful Login with Valid Credentials" time="29.286025">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Your store. Logi]n&gt; but was:&lt;[Dashboard / nopCommerce administratio]n&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.Steps.page_title_should_be_something(Steps.java:89)&#13;&#10;&#9;at ✽.Page Title should be &quot;Your store. Login&quot;(file:Features/Login.feature:11)&#13;&#10;"><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then Page Title should be "Dashboard / nopCommerce administration"..........passed
+When User click on Log out link.............................................passed
+Then Page Title should be "Your store. Login"...............................failed
+And close browser...........................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Your store. Logi]n> but was:<[Dashboard / nopCommerce administratio]n>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.Steps.page_title_should_be_something(Steps.java:89)
+	at ✽.Page Title should be "Your store. Login"(file:Features/Login.feature:11)
+]]></failure>
+</testcase>
+</testsuite>

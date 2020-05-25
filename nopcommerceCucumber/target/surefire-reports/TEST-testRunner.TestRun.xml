@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="testRunner.TestRun" time="0.065" errors="0" skipped="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\SeleniumWorkspace\nopcommerceCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\SeleniumWorkspace\nopcommerceCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\SeleniumWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4403828269296173580.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_162/bin/server;C:/Program Files/Java/jre1.8.0_162/bin;C:/Program Files/Java/jre1.8.0_162/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\nodejs;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\Program Files (x86)\apache-maven-3.6.3\;C:\Program Files (x86)\apache-maven-3.6.3\\bin;C:\Users\ADMIN\AppData\Roaming\npm;C:\Program Files\Android\Android Studio\bin;C:\Users\ADMIN\AppData\Local\Android\Sdk\platform-tools;C:\Users\ADMIN\AppData\Local\Android\Sdk\tools;C:\Users\ADMIN\AppData\Local\Android\Sdk\build-tools;C:\Users\ADMIN\AppData\Local\Android\Sdk\build-tools\bin;C:\Users\ADMIN\AppData\Local\Android\Sdk\tools\bin;;C:\Users\ADMIN\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\ADMIN"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ADMIN"/>
+    <property name="java.class.path" value="C:\Users\ADMIN\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\SeleniumWorkspace\nopcommerceCucumber\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Customers" name="Add new Customer" time="0.035">
+    <skipped/>
+    <system-out>Feature: Customers
+
+  Background: backround steps                                              &amp;#27;[90m# Features/Customers.feature:3&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mUser Launch Chrome browser&amp;#27;[0m                                       &amp;#27;[90m# Steps.user_launch_chrome_browser()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser opens URL &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttp://admin-demo.nopcommerce.com/login&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m          &amp;#27;[90m# Steps.user_opens_url_something(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser enters Email as &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1madmin@yourstore.com&amp;#27;[0m&amp;#27;[36m&quot; and Password as &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1madmin&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Steps.user_enters_email_as_something_and_password_as_something(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mClick on Login&amp;#27;[0m                                                     &amp;#27;[90m# Steps.click_on_login()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser can view Dashboad&amp;#27;[0m                                            &amp;#27;[90m# Steps.user_can_view_Dashboad()&amp;#27;[0m
+
+  @sanity
+  Scenario: Add new Customer                                                                &amp;#27;[90m# Features/Customers.feature:11&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser click on customers Menu&amp;#27;[0m                                                       &amp;#27;[90m# Steps.user_click_on_customers_Menu()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclick on customers Menu Item&amp;#27;[0m                                                        &amp;#27;[90m# Steps.click_on_customers_Menu_Item()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclick on Add new button&amp;#27;[0m                                                             &amp;#27;[90m# Steps.click_on_Add_new_button()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser can view Add new customer page&amp;#27;[0m                                                &amp;#27;[90m# Steps.user_can_view_Add_new_customer_page()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser enter customer info&amp;#27;[0m                                                           &amp;#27;[90m# Steps.user_enter_customer_info()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclick on Save button&amp;#27;[0m                                                                &amp;#27;[90m# Steps.click_on_Save_button()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser can view confirmation message &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;The new customer has been added successfully.&quot;&amp;#27;[0m &amp;#27;[90m# Steps.user_can_view_confirmation_message(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclose browser&amp;#27;[0m                                                                       &amp;#27;[90m# Steps.close_browser()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Customers" name="Search Customer by EMailID" time="0.014">
+    <skipped/>
+    <system-out>
+  Background: backround steps                                              &amp;#27;[90m# Features/Customers.feature:3&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mUser Launch Chrome browser&amp;#27;[0m                                       &amp;#27;[90m# Steps.user_launch_chrome_browser()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser opens URL &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttp://admin-demo.nopcommerce.com/login&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m          &amp;#27;[90m# Steps.user_opens_url_something(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser enters Email as &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1madmin@yourstore.com&amp;#27;[0m&amp;#27;[36m&quot; and Password as &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1madmin&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Steps.user_enters_email_as_something_and_password_as_something(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mClick on Login&amp;#27;[0m                                                     &amp;#27;[90m# Steps.click_on_login()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser can view Dashboad&amp;#27;[0m                                            &amp;#27;[90m# Steps.user_can_view_Dashboad()&amp;#27;[0m
+
+  @regression
+  Scenario: Search Customer by EMailID               &amp;#27;[90m# Features/Customers.feature:22&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser click on customers Menu&amp;#27;[0m                &amp;#27;[90m# Steps.user_click_on_customers_Menu()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclick on customers Menu Item&amp;#27;[0m                 &amp;#27;[90m# Steps.click_on_customers_Menu_Item()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mEnter customer EMail&amp;#27;[0m                         &amp;#27;[90m# Steps.enter_customer_EMail()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mClick on search button&amp;#27;[0m                      &amp;#27;[90m# Steps.click_on_search_button()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should found Email in the Search table&amp;#27;[0m &amp;#27;[90m# Steps.user_should_found_Email_in_the_Search_table()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclose browser&amp;#27;[0m                                &amp;#27;[90m# Steps.close_browser()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Customers" name="Search Customer by Name" time="0.011">
+    <skipped/>
+    <system-out>
+  Background: backround steps                                              &amp;#27;[90m# Features/Customers.feature:3&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mUser Launch Chrome browser&amp;#27;[0m                                       &amp;#27;[90m# Steps.user_launch_chrome_browser()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser opens URL &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttp://admin-demo.nopcommerce.com/login&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m          &amp;#27;[90m# Steps.user_opens_url_something(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser enters Email as &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1madmin@yourstore.com&amp;#27;[0m&amp;#27;[36m&quot; and Password as &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1madmin&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Steps.user_enters_email_as_something_and_password_as_something(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mClick on Login&amp;#27;[0m                                                     &amp;#27;[90m# Steps.click_on_login()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser can view Dashboad&amp;#27;[0m                                            &amp;#27;[90m# Steps.user_can_view_Dashboad()&amp;#27;[0m
+
+  @regression
+  Scenario: Search Customer by Name                 &amp;#27;[90m# Features/Customers.feature:31&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser click on customers Menu&amp;#27;[0m               &amp;#27;[90m# Steps.user_click_on_customers_Menu()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclick on customers Menu Item&amp;#27;[0m                &amp;#27;[90m# Steps.click_on_customers_Menu_Item()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mEnter customer FirstName&amp;#27;[0m                    &amp;#27;[90m# Steps.enter_customer_FirstName()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mEnter customer LastName&amp;#27;[0m                     &amp;#27;[90m# Steps.enter_customer_LastName()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mClick on search button&amp;#27;[0m                     &amp;#27;[90m# Steps.click_on_search_button()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser should found Name in the Search table&amp;#27;[0m &amp;#27;[90m# Steps.user_should_found_Name_in_the_Search_table()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclose browser&amp;#27;[0m                               &amp;#27;[90m# Steps.close_browser()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Login" name="Successful Login with Valid Credentials" time="0.005">
+    <skipped/>
+    <system-out>
+Feature: Login
+
+  @sanity
+  Scenario: Successful Login with Valid Credentials                        &amp;#27;[90m# Features/Login.feature:4&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mUser Launch Chrome browser&amp;#27;[0m                                       &amp;#27;[90m# Steps.user_launch_chrome_browser()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser opens URL &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttp://admin-demo.nopcommerce.com/login&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m          &amp;#27;[90m# Steps.user_opens_url_something(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser enters Email as &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1madmin@yourstore.com&amp;#27;[0m&amp;#27;[36m&quot; and Password as &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1madmin&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Steps.user_enters_email_as_something_and_password_as_something(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mClick on Login&amp;#27;[0m                                                     &amp;#27;[90m# Steps.click_on_login()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mPage Title should be &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mDashboard / nopCommerce administration&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m     &amp;#27;[90m# Steps.page_title_should_be_something(String)&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser click on Log out link&amp;#27;[0m                                        &amp;#27;[90m# Steps.user_click_on_log_out_link()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mPage Title should be &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mYour store. Login&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                          &amp;#27;[90m# Steps.page_title_should_be_something(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclose browser&amp;#27;[0m                                                      &amp;#27;[90m# Steps.close_browser()&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>
